@@ -9,7 +9,7 @@ _Compile_
 
     $ gcc -o udp-flood udp-flood.c
     
-_Run
+_Run_
 
               $ ./udp-flood --target/-T (TARGET IP)   --duration/-D (DURATION IN SECONDS)    --port/-P (TARGET PORT NO.)
     [EXAMPLE] $ ./udp-flood --target 1.2.3.4 --port 6666 -D 60
